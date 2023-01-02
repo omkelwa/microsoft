@@ -211,9 +211,7 @@ p, h5{
 
     
 @media(max-width:768px){
-    body{
-        background:blue;
-    }
+    
   .nav_links{
         display: none;
     }
@@ -221,13 +219,226 @@ p, h5{
         display:none;
     }
     .nav_icons{
-        justify-content: space-evenly;
+        justify-content: space-between;
         font-size:25px;
+        margin-left:10px;
+        align-items: center;
     }
     .respones{
-        width:15%;
+        width:20%;
         display:flex;   
-        justify-content: space-evenly;
+        justify-content: space-between;
         font-size:24px;
+        align-items: center;
     }
+    #row_two{
+        display:flex;
+        flex-direction:column-reverse;
+        width:530px;
+    }
+    #row_two .col_one{
+        text-align: center;
+    }
+    #row_two img{
+        width:500px;
+        margin-left:-15px;
+    }
+    #row_three{
+        margin-top:70px;
+    }
+    #row_four{
+        padding:20px;
+        font-size:14px;
+    }
+    #row_four br{
+        display:none;
+    }
+    #row_five img{
+        width:500px;
+        margin-left:-45px;
+        
+    }
+
+    #row_six{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #row_seven{
+        padding:30px;
+    }
+    #row_seven br{
+        display:none;
+    }
+    #row_eight{
+        width:500px;
+        display: flex;
+        flex-direction:column;
+    }
+    #row_eight img{
+        width:500px;
+        margin-left:15px;
+    }
+    #row_eight .col_two{
+        width:500px;
+        text-align: center;
+        padding:0;
+    }
+
+    #row_eight .col_two ul {
+        text-align: center;
+        
+    }
+
+    #row_nine{
+        width:450px;
+        margin:auto;
+    }
+
+    #row_nine br{
+        display:none;
+    }
+    #row_ten{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    #row_ten .col_one{
+        width:500px;
+        margin:auto;
+        padding: 20px 80px;
+
+    }
+    #row_ten .col_two img{
+        width:400px;
+        margin-left:60px;
+    }
+    #row_eleven{
+        width:400px;
+        margin:auto;
+    }
+    #row_eleven p{
+        font-size:18px;
+        width:500px;
+        margin-left:-50px;
+    }
+
+    #row_twelve{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width:500px;
+        margin:auto;
+    }
+
+    #row_twelve div:nth-child(1){
+        display:none;
+    }
+    
+    #row_twelve div:nth-child(2){
+        width:400px;
+        margin:auto;
+        font-size:15px;
+    }
+
+    
+    #row_twelve div:nth-child(2) img{
+        width:400px;
+    }
+    #row_twelve div:nth-child(2) p{
+        width:450px;
+    }
+    #row_twelve div:nth-child(3), br{
+        display:none;
+}
+#row_thirteen {
+    padding:30px;
+}
+#row_fourteen img{
+    width:500px;
+    display: flex;
+    justify-content: center;
+
+}
+#row_fifteen img{
+    width:100px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#row_sixteen img{
+    width:500px;
+    margin-top: 10px;
+}
+#row_seventeen{
+    padding:20px;
+}
+#row_eighteen img{
+    width:250px;
+}
+
+#row_nineteen{
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+}
+#row_nineteen ul li{
+    text-align:left;
+    padding:20px;
+    text-indent: -20px;
+}
+#row_twenty{
+    width:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#row_twenty img{
+    width:200px;
+    
+}
+#row_twenty .col_two{
+    margin-top: -50px;
+    padding:80px;
+    font-size:16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#row_twenty .col_two p{
+    font-size: 16px;
+    width:420px;
+}
+#row_twenty .col_two p:last-child{
+    font-size: 16px;
+    text-align: center;
+}
+#row_twentyone{
+    display:flex;
+    flex-direction: column;
+    
+}
+#row_twentytwo{
+    display: none;
+}
+#row_twentythree{
+    display: none;
+}
+#row_twentyfive{
+    display:none;
+}
+#row_twentyseven{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:20px;
+}
+#row_twentyeight{
+    width:500px;
+    display: flex;
+    flex-direction: column;
+}
+#row_twentyeight ul {
+    width:500px;
+    font-size: 13px;
+}
 }
